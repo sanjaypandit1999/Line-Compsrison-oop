@@ -28,4 +28,16 @@ public class CalLine {
         System.out.println("Length of Line-" + length);
         return length;
     }
+    public static int comparisonTo(double lengthA, double lengthB) {
+        if (lengthA < lengthB) {
+            System.out.println("lengthA less Than lengthB");
+            return -1;
+        }
+        if (lengthA > lengthB) {
+            System.out.println("lengthA greater Than lengthB");
+            return 1;
+        }
+        System.out.println("legthA equal lengthB ");
+        return 0;
+    }
 }
